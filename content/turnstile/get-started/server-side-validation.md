@@ -108,7 +108,7 @@ highlight: [2]
 
 * `challenge_ts` is the ISO timestamp for the time the challenge was solved.
 * `hostname` is the hostname for which the challenge was served.
-* `action` is the customer widget identifier passed to the widget on the client side. This is used to differentiate widgets using the same sitekey in analytics. Its integrity is protected by modifications from an attacker. It is recommended to validate that the action matches an expected value.
+* `action` is the customer widget identifier passed to the widget on the client side. This is used to differentiate widgets using the same sitekey in analytics. Its integrity is protected from modifications by an attacker. It is recommended to validate that the action matches an expected value.
 * `cdata` is the customer data passed to the widget on the client side. This can be used by the customer to convey state. It is integrity protected by modifications from an attacker.
 * `error-codes` is a list of errors that occurred.
 
